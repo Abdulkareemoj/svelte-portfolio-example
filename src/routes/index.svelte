@@ -1,6 +1,31 @@
 <svelte:head>
  <title>John Doe</title>
 </svelte:head>
+
+<div class="container">
+ <div class="info">
+   <div class="animate-background">
+     <div class="container info-container">
+     <div class="info-text">
+       <h1>
+       <p class="animate-text-1">Self-taught Web Developer, </p>
+       <p class="text-2">Self-taught Software Engineer</p>
+       </h1>
+     </div>
+     <h2 class="subtitle">
+       On a mission to help SMEs across the globe do businesses 
+       seamlessly and digitally.
+     </h2>
+     <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
+       <a href="/about">Click Here</a><div class="arrow">→</div>
+     </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+<div class="background-div"></div>
+
 <style>
     .info {
         text-align: center;
@@ -66,27 +91,3 @@
       margin-left: 0.50rem;
   }
  </style>
-
-<div class="container">
- <div class="info">
-   <div class="animate-background">
-     <div class="container info-container">
-     <div class="info-text">
-       <h1>
-       <p class="animate-text-1">Self-taught Web Developer, </p>
-       <p class="text-2">Self-taught Software Engineer</p>
-       </h1>
-     </div>
-     <h2 class="subtitle">
-       On a mission to help SMEs across the globe do businesses 
-       seamlessly and digitally.
-     </h2>
-     <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-       <a href="/about">Click Here</a><div class="arrow">→</div>
-     </div>
-     </div>
-   </div>
- </div>
-</div>
-
-<div class="background-div"></div>

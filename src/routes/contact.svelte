@@ -1,6 +1,7 @@
-<!-- src/routes/projects.svelte -->
+
+<!-- src/routes/contact.svelte -->
 <svelte:head>
-	<title>Projects</title>
+	<title>Contact</title>
 </svelte:head>
 
 <div class="container">
